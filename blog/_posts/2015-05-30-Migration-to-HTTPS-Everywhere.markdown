@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Migration to HTTPS Everywhere"
 date:   2015-05-30 23:01:37
 categories: jekyll update
 ---
