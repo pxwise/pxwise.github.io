@@ -4,10 +4,10 @@
     <title>pxwise</title>
     <description>Shawn Stedman&#39;s coding blog. Front End Engineer in San Francisco with a focus on all things Javascript. I enjoy hacking in React, Angular, Backbone, D3, THREE.js, Raphael.js, Node.js
 </description>
-    <link>https://pxwise.com/</link>
-    <atom:link href="https://pxwise.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 31 May 2015 03:19:43 -0700</pubDate>
-    <lastBuildDate>Sun, 31 May 2015 03:19:43 -0700</lastBuildDate>
+    <link>https://pxwise.com/blog/</link>
+    <atom:link href="https://pxwise.com/blog/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 31 May 2015 03:24:40 -0700</pubDate>
+    <lastBuildDate>Sun, 31 May 2015 03:24:40 -0700</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -125,8 +125,8 @@ Test text Test text Test text Test text Test text Test text&lt;/p&gt;
 
 </description>
         <pubDate>Sun, 31 May 2015 05:01:37 -0700</pubDate>
-        <link>https://pxwise.com/three.js/2015/05/31/THREE.js-starter-code.html</link>
-        <guid isPermaLink="true">https://pxwise.com/three.js/2015/05/31/THREE.js-starter-code.html</guid>
+        <link>https://pxwise.com/blog/three.js/2015/05/31/THREE.js-starter-code.html</link>
+        <guid isPermaLink="true">https://pxwise.com/blog/three.js/2015/05/31/THREE.js-starter-code.html</guid>
         
         
         <category>three.js</category>
@@ -151,8 +151,8 @@ Test text Test text Test text Test text Test text Test text&lt;/p&gt;
 
 </description>
         <pubDate>Sat, 30 May 2015 16:01:37 -0700</pubDate>
-        <link>https://pxwise.com/jekyll/update/2015/05/30/Migration-to-HTTPS-Everywhere.html</link>
-        <guid isPermaLink="true">https://pxwise.com/jekyll/update/2015/05/30/Migration-to-HTTPS-Everywhere.html</guid>
+        <link>https://pxwise.com/blog/jekyll/update/2015/05/30/Migration-to-HTTPS-Everywhere.html</link>
+        <guid isPermaLink="true">https://pxwise.com/blog/jekyll/update/2015/05/30/Migration-to-HTTPS-Everywhere.html</guid>
         
         
         <category>jekyll</category>
