@@ -1,4 +1,4 @@
-<footer class="site-footer">
+<!-- <footer class="site-footer">
 
   <div class="wrapper">
 
@@ -52,6 +52,16 @@
 
   </div>
 
-</footer>
+</footer> -->
 
-<script type="text/javascript" href="{{ "/node_modules/three/three.min.css" | prepend: site.baseurl }}"></script>
+
+<!-- garbage -->
+<!-- http://stackoverflow.com/questions/7985081/how-to-deploy-a-jekyll-site-locally-with-css-js-and-background-images-included -->
+{% assign lvl = page.url | append:'X' | split:'/' | size %}
+{% capture relative %}{% for i in (3..lvl) %}../{% endfor %}{% endcapture %}
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script type="text/javascript" src="{{ relative }}node_modules/three/three.min.js"></script>
+<script type="text/javascript" src="{{ relative }}js/stars.js"></script>
+<script type="text/javascript" src="{{ relative }}js/app.js"></script>
+

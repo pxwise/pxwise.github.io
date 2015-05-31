@@ -142,6 +142,32 @@ pre {
   .icon > svg path {
     fill: #828282; }
 
+.nopadding {
+  padding-left: 0;
+  padding-right: 0; }
+
+.header {
+  height: 60px;
+  color: #fff;
+  background-color: #140246;
+  opacity: 0.8; }
+  .header.navbar-fixed-top {
+    border-width: 0; }
+
+#stars {
+  position: fixed;
+  background-color: #000; }
+
+.content {
+  float: right; }
+
+.content-header {
+  height: 60px;
+  background-color: #000a2f; }
+
+.content-body {
+  margin: 20px; }
+
 /**
  * Site header
  */

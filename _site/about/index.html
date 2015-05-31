@@ -10,8 +10,8 @@
   <meta name="description" content="Shawn Stedman's coding blog. Front End Engineer in San Francisco with a focus on all things Javascript. I enjoy hacking in React, Angular, Backbone, D3, THREE.js, Raphael.js, Node.js
 ">
 
-  <link rel="stylesheet" href="/css/main.css">
   <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/main.css">
   <link rel="canonical" href="https://pxwise.com/about/">
   <link rel="alternate" type="application/rss+xml" title="pxwise" href="https://pxwise.com/feed.xml" />
 </head>
@@ -19,7 +19,7 @@
 
   <body>
 
-    <header class="site-header">
+    <!-- <header class="site-header header">
 
   <div class="wrapper">
 
@@ -51,12 +51,31 @@
 
   </div>
 
-</header>
+</header> -->
 
 
-    <div class="page-content">
-      <div class="wrapper">
-        <div class="post">
+  <header class="header navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container-fluid">
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="/">pxwise</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+
+<!--     <div class="page-content">
+      <div class="wrapper"> -->
+
+
+        <div class="container-fluid">
+          <div class="row">
+            <div id="stars" class="col-md-3 nopadding"></div>
+            <div class="content col-md-9">
+              <div class="content-header"></div>
+              <div class="content-body">
+                <div class="post">
 
   <header class="post-header">
     <h1 class="post-title">About</h1>
@@ -73,10 +92,16 @@
 
 </div>
 
-      </div>
-    </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
-    <footer class="site-footer">
+
+<!--       </div>
+    </div> -->
+
+    <!-- <footer class="site-footer">
 
   <div class="wrapper">
 
@@ -131,9 +156,19 @@
 
   </div>
 
-</footer>
+</footer> -->
 
-<script type="text/javascript" href="/node_modules/three/three.min.css"></script>
+
+<!-- garbage -->
+<!-- http://stackoverflow.com/questions/7985081/how-to-deploy-a-jekyll-site-locally-with-css-js-and-background-images-included -->
+
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script type="text/javascript" src="../node_modules/three/three.min.js"></script>
+<script type="text/javascript" src="../js/stars.js"></script>
+<script type="text/javascript" src="../js/app.js"></script>
+
 
 
   </body>

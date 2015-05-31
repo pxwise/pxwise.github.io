@@ -7,11 +7,25 @@
 
     {% include header.html %}
 
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </div>
+<!--     <div class="page-content">
+      <div class="wrapper"> -->
+
+
+        <div class="container-fluid">
+          <div class="row">
+            <div id="stars" class="col-md-3 nopadding"></div>
+            <div class="content col-md-9">
+              <div class="content-header"></div>
+              <div class="content-body">
+                {{ content }}
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+<!--       </div>
+    </div> -->
 
     {% include footer.html %}
 
