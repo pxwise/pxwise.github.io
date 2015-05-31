@@ -10,7 +10,7 @@
 
   {% assign lvl = page.url | append:'X' | split:'/' | size %}
   {% capture relative %}{% for i in (3..lvl) %}../{% endfor %}{% endcapture %}
-  <link href="{{ relative }}/node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="{{ relative }}/css/bootstrap.min.css" rel="stylesheet" />
   <link href="{{ relative }}/css/main.css" rel="stylesheet" />
   <link href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" rel="canonical" />
   <link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="alternate" type="application/rss+xml" title="{{ site.title }}" />
