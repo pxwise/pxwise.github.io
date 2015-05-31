@@ -210,6 +210,32 @@ pre {
 $main-font-family: 'Source Sans Pro', 'Helvetica Neue Light', Helvetica, Arial, sans-serif;
 $title-font-family: 'Roboto Condensed', sans-serif;
 
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+a,
+a:visited {
+  text-decoration: none;
+
+  &:link {
+    -webkit-tap-highlight-color: rgba(255, 136, 116, 0.33);
+     transition: color 0.17s ease-out, 0.0s;
+  }
+  &:hover {
+    transition: color 0.17s ease-out, 0.0s;
+  }
+  &:active {
+    transition: color 0.0s ease-out, 0.0s;
+  }
+  &:focus {
+    transition: color 0.0s ease-out, 0.0s;
+  }
+}
+
 .nopadding {
   padding-left: 0;
   padding-right: 0;
@@ -269,12 +295,63 @@ $title-font-family: 'Roboto Condensed', sans-serif;
   font-size: 14px;
   text-transform: uppercase;
   letter-spacing: 0.8em;
-  color: #f77;
+  color: #fd593f;
 }
 .bio-description {
- margin-top: 10px;
- font-size: 15px;
- color: #ddd;
+  margin-top: 10px;
+  font-size: 15px;
+  color: #ddd;
+}
+.bio-icons {
+  margin-top: 30px;
+
+  .fa {
+    width: 20%;
+  }
+  .fa-twitter {
+    margin-left: 20%;
+  }
+  a,
+  a:visited {
+    color: #bbb;
+    text-decoration: none;
+  }
+  .twitter-link {
+    &:link {
+      -webkit-tap-highlight-color: rgba(150, 207, 250, 0.33);
+    }
+    &:hover {
+      color: #54abee;
+    }
+    &:active,
+    &:focus {
+      color: #96cffa;
+    }
+  }
+  .github-link {
+    &:link {
+      -webkit-tap-highlight-color: rgba(204, 204, 204, 0.33);
+    }
+    &:hover {
+      color: #f5f182;
+    }
+    &:active,
+    &:focus {
+      color: #fff;
+    }
+  }
+  .stack-overflow-link {
+    &:link {
+      -webkit-tap-highlight-color: rgba(253, 170, 110, 0.33);
+    }
+    &:hover {
+      color: #fa9951;
+    }
+    &:active,
+    &:focus {
+      color: #fdaa6e;
+    }
+  }
 }
 
 .content {
@@ -298,6 +375,7 @@ body {
   font-size: 12px;
 }
 .post-title {
+  color: #ff231e;
   font-family: $title-font-family;
   font-weight: 400;
 }
