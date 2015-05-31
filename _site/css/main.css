@@ -158,6 +158,9 @@ pre {
   position: fixed;
   background-color: #000; }
 
+.sidebar {
+  background-color: #000; }
+
 .sidebar-bio {
   position: fixed;
   top: 60px;
@@ -165,7 +168,7 @@ pre {
   color: #fff; }
 
 .bio-picture {
-  padding: 10% 0;
+  padding: 60px 0 30px;
   text-align: center; }
 
 .bio-picture-img {
@@ -177,23 +180,26 @@ pre {
 .bio-name {
   margin-bottom: 0;
   font-weight: bold;
-  font-size: 24px;
-  color: #999; }
+  font-size: 26px;
+  letter-spacing: -0.03em;
+  padding-bottom: 10px;
+  border-bottom: 1px dotted #444;
+  color: #bbb; }
 
 .bio-title {
-  font-size: 28px;
+  font-size: 30px;
   color: #fff; }
 
 .bio-city {
   font-size: 14px;
   text-transform: uppercase;
-  letter-spacing: 0.7em;
+  letter-spacing: 0.8em;
   color: #f77; }
 
 .bio-description {
   margin-top: 10px;
   font-size: 15px;
-  color: #ccc; }
+  color: #ddd; }
 
 .content {
   float: right;
@@ -205,7 +211,7 @@ pre {
   background-color: #000a2f; }
 
 .content-body {
-  margin: 20px 45px; }
+  margin: 60px 45px 20px; }
 
 body {
   font-family: "Source Sans Pro", "Helvetica Neue Light", Helvetica, Arial, sans-serif; }
