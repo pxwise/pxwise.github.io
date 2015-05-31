@@ -206,10 +206,15 @@ pre {
 
 
 ////// ported from pxwise three
+
+$main-font-family: 'Source Sans Pro', 'Helvetica Neue Light', Helvetica, Arial, sans-serif;
+$title-font-family: 'Roboto Condensed', sans-serif;
+
 .nopadding {
   padding-left: 0;
   padding-right: 0;
 }
+
 
 .header {
   height: 60px;
@@ -226,14 +231,73 @@ pre {
   position: fixed;
   background-color: #000;
 }
+.sidebar {
+
+}
+.sidebar-bio {
+  position: fixed;
+  top: 60px;
+  padding: 0 30px 0 40px;
+  color: #fff;
+}
+.bio-picture {
+  padding: 10% 0;
+  text-align: center;
+}
+.bio-picture-img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 67%;
+  height: 67%;
+}
+.bio-name {
+  //font-family: $title-font-family;
+  margin-bottom: 0;
+  font-weight: bold;
+  font-size: 24px;
+  //letter-spacing: 0.1em;
+
+  color: #999;
+}
+.bio-title {
+  font-size: 28px;
+  color: #fff;
+}
+.bio-city {
+  //font-family: $title-font-family;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.7em;
+  color: #f77;
+}
+.bio-description {
+ margin-top: 10px;
+ font-size: 15px;
+ color: #ccc;
+}
 
 .content {
   float: right;
+  background-color: #f9f9f9;
 }
 .content-header {
-    height: 60px;
-    background-color: #000a2f;
+  margin: 0 -15px;
+  height: 60px;
+  background-color: #000a2f;
 }
 .content-body {
-  margin: 20px;
+  margin: 20px 45px;
 }
+
+// default overrides
+body {
+  font-family: $main-font-family;
+}
+.highlight pre {
+  font-size: 12px;
+}
+.post-title {
+  font-family: $title-font-family;
+  font-weight: 400;
+}
+
