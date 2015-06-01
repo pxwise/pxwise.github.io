@@ -3,11 +3,6 @@
 ---
 @charset "utf-8";
 
-// Includes//
-{% comment %}
-{% include bootstrap.min.css %}
-{% endcomment %}
-
 // Our variables
 $base-font-family: Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
@@ -50,6 +45,45 @@ $on-laptop:        800px;
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "base",
-        "layout",
+        // "layout",
         "syntax-highlighting"
 ;
+
+
+// Bootstrap compliant, responsive mobile-first styles
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+  @import "min320";
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+  @import "min480";
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+  @import "min768";
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+  @import "min992";
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+  @import "min1200";
+}
+
+/* Retina and hi res displays */
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+       only screen and (min--moz-device-pixel-ratio: 1.5),
+       only screen and (min-device-pixel-ratio: 1.5) {
+  @import "2x";
+}
+
+/* pritn stylesheet */
+@media print {
+  @import "print";
+}

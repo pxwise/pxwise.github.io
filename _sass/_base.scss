@@ -204,6 +204,14 @@ pre {
 }
 
 
+// Oerrides
+.post-title {
+    font-size: 42px;
+    letter-spacing: -1px;
+    line-height: 1;
+}
+
+
 
 ////// ported from pxwise three
 
@@ -313,7 +321,7 @@ a:visited {
   }
   a,
   a:visited {
-    color: #bbb;
+    color: #999;
     text-decoration: none;
   }
   .twitter-link {
@@ -321,11 +329,11 @@ a:visited {
       -webkit-tap-highlight-color: rgba(150, 207, 250, 0.33);
     }
     &:hover {
-      color: #54abee;
+      color: #fff;
     }
     &:active,
     &:focus {
-      color: #96cffa;
+      color: #54abee; //#96cffa;
     }
   }
   .github-link {
@@ -333,11 +341,11 @@ a:visited {
       -webkit-tap-highlight-color: rgba(204, 204, 204, 0.33);
     }
     &:hover {
-      color: #f5f182;
+      color: #fff;
     }
     &:active,
     &:focus {
-      color: #fff;
+      color: #f5f182; //#fff;
     }
   }
   .stack-overflow-link {
@@ -345,11 +353,14 @@ a:visited {
       -webkit-tap-highlight-color: rgba(253, 170, 110, 0.33);
     }
     &:hover {
-      color: #fa9951;
+      color: #fff;
     }
     &:active,
     &:focus {
-      color: #fdaa6e;
+      color: #fa9951; //#fdaa6e;
+    }
+    .fa-stack-overflow:before {
+      font-size: 28px;
     }
   }
 }
