@@ -317,18 +317,9 @@ a:visited {
   padding: 0 30px 0 40px;
   color: #fff;
 }
-.bio-picture {
-  padding: 60px 0 30px;
-  text-align: center;
-}
-.bio-picture-img {
-  margin-left: auto;
-  margin-right: auto;
-  width: 60%;
-  height: 60%;
-}
 .bio-name {
   //font-family: $title-font-family;
+  margin-top: 160px;
   margin-bottom: 0;
   font-weight: bold;
   font-size: 30px;
@@ -406,6 +397,16 @@ a:visited {
       font-size: 28px;
     }
   }
+}
+.bio-picture {
+  padding: 60px 0 30px;
+  text-align: center;
+}
+.bio-picture-img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  height: 60%;
 }
 
 .content {

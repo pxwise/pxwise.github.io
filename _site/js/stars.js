@@ -149,7 +149,7 @@ window.Background = (function(win, $) {
         var MAX_CAM = 45;
         var MIN_CAM = -45;
         var scrollPercentage;
-        var LOGO_VERTICAL_POSITION = -205;
+        var LOGO_VERTICAL_POSITION = 85;
         var LOGO_STAY_ON_SCREEN_Y_FACTOR = -91;
 
         standStill = false;
@@ -162,7 +162,7 @@ window.Background = (function(win, $) {
         scrollPercentage = $(win).scrollTop() / $(win).height();
         camera.position.y = -(MAX_CAM - MIN_CAM) * scrollPercentage + MIN_CAM;
         camera2.position.y += 1;
-        cubes.rotation.x = (scrollPercentage * (Math.PI / 2.5)) - (Math.PI / 4) + Math.PI;// * 0.001;
+        cubes.rotation.x = (scrollPercentage * (Math.PI / 2.5)) - (Math.PI / 7) + Math.PI;// * 0.001;
         cubes.position.y = scrollPercentage * LOGO_STAY_ON_SCREEN_Y_FACTOR + LOGO_VERTICAL_POSITION; // * 0.001;
     }
 
