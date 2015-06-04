@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://pxwise.com/three.js/2015/05/31/THREE.js-starter-code.html</loc>
+    <lastmod>2015-05-31T05:01:37-07:00</lastmod>
+  </url>
+  <url>
+    <loc>https://pxwise.com/jekyll/update/2015/05/30/Migration-to-HTTPS-Everywhere.html</loc>
+    <lastmod>2015-05-30T16:01:37-07:00</lastmod>
+  </url>
+  <url>
+    <loc>https://pxwise.com/</loc>
+  </url>
+  <url>
+    <loc>https://pxwise.com/about/</loc>
+  </url>
+  <url>
+    <loc>https://pxwise.com/archive/</loc>
+  </url>
+</urlset>

@@ -31,7 +31,12 @@
     <div class="container-fluid">
       <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
-          <li><a href="/">pxwise</a></li>
+          <li class="home-link"><a href="/">pxwise</a></li>
+          {% for page in site.pages %}
+          {% if page.title %}
+          <li><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+          {% endif %}
+        {% endfor %}
         </ul>
       </div>
     </div>
