@@ -252,6 +252,11 @@ a:visited {
   padding-right: 0;
 }
 
+.header {
+  background-repeat: no-repeat;
+  background-size: 200px 60px;
+  background-image: url('../../../../assets/images/pxwise-stripe-bg.png');
+}
 .navbar-default .navbar-collapse {
   margin-top: 5px;
 }
