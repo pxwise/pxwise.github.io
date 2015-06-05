@@ -227,6 +227,7 @@ $title-font-family: 'Roboto Condensed', sans-serif;
 }
 body {
   background-color: #f9f9f9;
+  font-size: 18px;
 }
 a,
 a:visited {
@@ -271,7 +272,8 @@ a:visited {
   opacity: 0.8;
 
   &.navbar-fixed-top {
-    border-width: 0;
+    //border-width: 0;
+    border-bottom: 1px solid #322663;
   }
 
   .navbar-nav>li>a,

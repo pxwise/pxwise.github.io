@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>pxwise</title>
-    <description>Shawn Stedman&#39;s coding blog. Front End Engineer in San Francisco with a focus on all things Javascript. I enjoy hacking in React, Angular, Backbone, D3, THREE.js, Raphael.js, Node.js
+    <description>Shawn Stedman&#39;s coding blog. Front End Engineer in San Francisco, enjoying hacking on all things Javascript, especially React, Angular, Node.js, THREE.js and D3.
 </description>
     <link>https://pxwise.com/</link>
     <atom:link href="https://pxwise.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 04 Jun 2015 18:53:20 -0700</pubDate>
-    <lastBuildDate>Thu, 04 Jun 2015 18:53:20 -0700</lastBuildDate>
+    <pubDate>Thu, 04 Jun 2015 20:35:31 -0700</pubDate>
+    <lastBuildDate>Thu, 04 Jun 2015 20:35:31 -0700</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -134,30 +134,51 @@ Test text Test text Test text Test text Test text Test text&lt;/p&gt;
       </item>
     
       <item>
-        <title>Migration to HTTPS Everywhere</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+        <title>Fonts Rendering Too Bold in Mac OS X</title>
+        <description>&lt;p&gt;There have been a couple of occasions recently where I’ve
+given my css a cross-browser visual inspection and noticed that my fonts
+appeared bolder in Firefox. After triple checking every other browser and OS
+I narrowed the issue down to Firefox on the Mac, all versions.&lt;/p&gt;
 
-&lt;p&gt;To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+&lt;p&gt;This was one of those pesky issues that seemed like it must have a simple fix
+but every attempt to clean up the fonts came up empty. I tried &lt;code&gt;font-smoothing: antialiased;&lt;/code&gt;,
+adjusting the font-weight by increments of 100, moving my svg font declaration
+up in precedence in my @font-face declaration and a
+last desperate atempt reducing the font-weight to 100 and applying a text-shadow
+to emulate antialiasing (bad idea, ha). None of these “tips” resolved the issue.&lt;/p&gt;
 
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/posts/firefox-fonts.gif&quot; alt=&quot;Zocial font rendering too bold on Mac OS X&quot; style=&quot;float:right; width: 30%; height: 30%; margin-left: 20px;&quot; /&gt;&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Tom&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &amp;#39;Hi, Tom&amp;#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;It turns out that Mozilla has known about this Mac-specific issue for some time.
+The issue boils down to a difference in the rendering engine Firefox uses on
+a Mac. &lt;a href=&quot;https://bugzilla.mozilla.org/show_bug.cgi?id=857142&quot;&gt;Mozilla weighed the decision heavily&lt;/a&gt;
+whether or not to add another vendor prefix.
+The demand from designers and developers was enough so they introduced &lt;code&gt;-moz-osx-font-smoothing: grayscale;&lt;/code&gt;
+which completely resolves the issue.&lt;/p&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I returned to the project I was working on and &lt;a href=&quot;https://github.com/samcollins/css-social-buttons/issues/76&quot;&gt;patched the zocial icon font css&lt;/a&gt; to use the new style.&lt;/p&gt;
 
+&lt;p&gt;So remember any place you are using &lt;code&gt;font-smoothing: antialiased;&lt;/code&gt; be sure to add
+in your vendor prefixed options, including the Firefox Mac rule:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-css&quot;&gt;.myfont {
+  -moz-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+&lt;/code&gt;&lt;/pre&gt;
 </description>
-        <pubDate>Sat, 30 May 2015 16:01:37 -0700</pubDate>
-        <link>https://pxwise.com/jekyll/update/2015/05/30/Migration-to-HTTPS-Everywhere.html</link>
-        <guid isPermaLink="true">https://pxwise.com/jekyll/update/2015/05/30/Migration-to-HTTPS-Everywhere.html</guid>
+        <pubDate>Wed, 14 May 2014 10:35:01 -0700</pubDate>
+        <link>https://pxwise.com/css/firefox/fonts/2014/05/14/Fonts-Rendering-Too-Bold-Firefox-Mac-OS-X.html</link>
+        <guid isPermaLink="true">https://pxwise.com/css/firefox/fonts/2014/05/14/Fonts-Rendering-Too-Bold-Firefox-Mac-OS-X.html</guid>
         
         
-        <category>jekyll</category>
+        <category>css</category>
         
-        <category>update</category>
+        <category>firefox</category>
+        
+        <category>fonts</category>
         
       </item>
     
