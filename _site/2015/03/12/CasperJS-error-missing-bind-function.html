@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>CasperJS Error: Missing bind() Function</title>
+  <meta name="description" content="">
+  <link rel="shortcut icon" href="/assets/images/favicon.ico">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
+  <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:300|Roboto+Condensed' rel='stylesheet' type='text/css' />
+  <link href="/node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="/css/main.css" rel="stylesheet" />
+  <link href="https://pxwise.com/2015/03/12/CasperJS-error-missing-bind-function.html" rel="canonical" />
+  <link href="https://pxwise.com/feed.xml" rel="alternate" type="application/rss+xml" title="pxwise" />
+</head>
+
+
+  <body>
+
+    <!-- <header class="site-header header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">pxwise</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+          <a class="page-link" href="/archive/index.html">Archive</a>
+          
+        
+          
+          <a class="page-link" href="/about/">About</a>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      </div>
+    </nav>
+
+  </div>
+
+</header> -->
+
+
+  <header class="header navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container-fluid">
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+          <li class="home-link"><a href="/">pxwise</a></li>
+          
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+          <li><a class="page-link" href="/archive/index.html">Archive</a></li>
+          
+        
+          
+          <li><a class="page-link" href="/about/">About</a></li>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        </ul>
+      </div>
+    </div>
+  </header>
+
+
+        <div class="container-fluid">
+          <div class="row">
+
+            <div id="stars" class="col-md-3 sidebar nopadding">
+  <div class="col-md-3 sidebar-bio">
+    <div class="bio-picture">
+      <img src="/assets/images/script.gif" class="bio-picture-img" width="60%" height="60%"/>
+    </div>
+    <h2 class="bio-name">Shawn Stedman</h2>
+    <div class="bio-title">Front End Engineer</div>
+    <div class="bio-city">San Francisco</div>
+    <div class="bio-description">
+      <p>
+        I enjoying hacking on all things Javascript, especially React, Angular, Node.js, THREE.js and D3.
+      </p>
+    </div>
+    <div class="bio-icons">
+      <a class="twitter-link" href="http://twitter.com/pxwise" title="twitter">
+        <i class="fa fa-twitter fa-2x"></i>
+      </a>
+      <a class="github-link" href="http://github.com/pxwise" title="github">
+        <i class="fa fa-github fa-2x"></i>
+      </a>
+      <a class="stack-overflow-link" href="http://stackoverflow.com/users/1774183/pxwise" title="stack overflow">
+        <i class="fa fa-stack-overflow fa-2x"></i>
+      </a>
+    </div>
+  </div>
+</div>
+
+
+            <div id="stars" class="col-md-3 nopadding"></div>
+            <div class="content col-md-9">
+              <div class="content-header"></div>
+              <div class="content-body">
+
+                <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">CasperJS Error: Missing bind() Function</h1>
+    <p class="post-meta">Mar 12, 2015</p>
+
+  
+  
+      
+      
+          
+              
+          
+              
+          
+              
+          
+              
+          
+              
+          
+              
+          
+              
+          
+              
+          
+              
+          
+              
+          
+              
+          
+              
+          
+              
+          
+              
+          
+              
+          
+              
+          
+              
+                  
+              
+          
+              
+          
+          
+              
+              
+          
+      
+          
+              
+          
+              
+          
+              
+          
+              
+          
+              
+          
+              
+          
+              
+          
+              
+          
+              
+          
+              
+          
+              
+          
+              
+          
+              
+          
+              
+          
+              
+          
+              
+          
+              
+          
+              
+                  
+              
+          
+          
+              
+              
+          
+      
+          
+              
+          
+              
+          
+              
+          
+              
+                  
+              
+          
+              
+          
+              
+          
+              
+          
+              
+          
+              
+          
+              
+          
+              
+          
+              
+          
+              
+          
+              
+          
+              
+          
+              
+          
+              
+          
+              
+          
+          
+              
+              
+          
+      
+  
+
+  </header>
+
+  <article class="post-content">
+    <p><img src="/assets/images/posts/pacman.png" alt="PacMan's new Ghost Bindy." style="float:right; width: 224px; height: 288px; margin-left: 20px;" /></p>
+
+<p><a href="http://casperjs.org/">CasperJS</a> and <a href="http://phantomjs.org/">PhantomJS</a> are fantastic tools for creating integration tests to
+sanity check the complete functionality of your site. They can simulate a user, click
+and keydown through your UI and take screenshots of your page. Written in
+javascript, tests are lean and do not require the heft of the alternative
+browser driver Selenium.</p>
+
+<p>Recently I ran into an issue with CasperJS while taking screenshots. I received
+<code>TypeError: 'undefined' is not a function (evaluating 'a.createDescriptor.bind(null,t)')</code>.
+I was using the most recent stable versions of CasperJS <code>1.1.0-beta3</code> and PhantomJS
+<code>1.9.7</code>.</p>
+
+<p>It turns out that PhantomJS below version 2.0.0 does not include the .bind()
+function. It is recommended to download the latest 2.0 version of PhantomJS from
+the master branch and use CasperJS with that build. After working through unrelated
+issues with PhantomJS 1.9.8 and downgrading to 1.9.7 I was not interested in
+trying out an even more unstable version.</p>
+
+<p>For me, the answer was to patch in the bind function to the evaluated remote page as
+shown below.</p>
+
+<div class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="cm">/**</span>
+<span class="cm"> * CasperJS .bind()</span>
+<span class="cm"> *</span>
+<span class="cm"> * Adds .bind() capability missing from PhantomJS &lt; 2.0.0 for CasperJS.</span>
+<span class="cm"> * Needed for some types of evaluations on the remote page as well as</span>
+<span class="cm"> * screenshots.</span>
+<span class="cm"> */</span>
+<span class="nx">casper</span><span class="p">.</span><span class="nx">on</span><span class="p">(</span><span class="s1">&#39;page.initialized&#39;</span><span class="p">,</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+  <span class="nx">casper</span><span class="p">.</span><span class="nx">evaluate</span><span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+    <span class="kd">var</span> <span class="nx">isFunction</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(</span><span class="nx">o</span><span class="p">)</span> <span class="p">{</span>
+      <span class="k">return</span> <span class="k">typeof</span> <span class="nx">o</span> <span class="o">==</span> <span class="s1">&#39;function&#39;</span><span class="p">;</span>
+    <span class="p">};</span>
+
+    <span class="kd">var</span> <span class="nx">bind</span><span class="p">;</span>
+    <span class="kd">var</span> <span class="nx">slice</span> <span class="o">=</span> <span class="p">[].</span><span class="nx">slice</span><span class="p">;</span>
+    <span class="kd">var</span> <span class="nx">proto</span> <span class="o">=</span> <span class="nb">Function</span><span class="p">.</span><span class="nx">prototype</span><span class="p">;</span>
+    <span class="kd">var</span> <span class="nx">featureMap</span><span class="p">;</span>
+
+    <span class="nx">featureMap</span> <span class="o">=</span> <span class="p">{</span>
+      <span class="s1">&#39;function-bind&#39;</span><span class="o">:</span> <span class="s1">&#39;bind&#39;</span>
+    <span class="p">};</span>
+
+    <span class="kd">function</span> <span class="nx">has</span><span class="p">(</span><span class="nx">feature</span><span class="p">)</span> <span class="p">{</span>
+      <span class="kd">var</span> <span class="nx">prop</span> <span class="o">=</span> <span class="nx">featureMap</span><span class="p">[</span><span class="nx">feature</span><span class="p">];</span>
+      <span class="k">return</span> <span class="nx">isFunction</span><span class="p">(</span><span class="nx">proto</span><span class="p">[</span><span class="nx">prop</span><span class="p">]);</span>
+    <span class="p">}</span>
+
+    <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="nx">has</span><span class="p">(</span><span class="s1">&#39;function-bind&#39;</span><span class="p">))</span> <span class="p">{</span>
+      <span class="nx">bind</span> <span class="o">=</span> <span class="kd">function</span> <span class="nx">bind</span><span class="p">(</span><span class="nx">obj</span><span class="p">)</span> <span class="p">{</span>
+        <span class="kd">var</span> <span class="nx">args</span> <span class="o">=</span> <span class="nx">slice</span><span class="p">.</span><span class="nx">call</span><span class="p">(</span><span class="nx">arguments</span><span class="p">,</span> <span class="mi">1</span><span class="p">);</span>
+        <span class="kd">var</span> <span class="nx">self</span> <span class="o">=</span> <span class="k">this</span><span class="p">;</span>
+        <span class="kd">var</span> <span class="nx">nop</span> <span class="o">=</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{};</span>
+        <span class="kd">var</span> <span class="nx">bound</span> <span class="o">=</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+          <span class="k">return</span> <span class="nx">self</span><span class="p">.</span><span class="nx">apply</span><span class="p">(</span><span class="k">this</span> <span class="k">instanceof</span> <span class="nx">nop</span> <span class="o">?</span> <span class="k">this</span> <span class="o">:</span> <span class="p">(</span><span class="nx">obj</span> <span class="o">||</span> <span class="p">{}),</span> <span class="nx">args</span><span class="p">.</span><span class="nx">concat</span><span class="p">(</span><span class="nx">slice</span><span class="p">.</span><span class="nx">call</span><span class="p">(</span><span class="nx">arguments</span><span class="p">)));</span>
+        <span class="p">};</span>
+        <span class="nx">nop</span><span class="p">.</span><span class="nx">prototype</span> <span class="o">=</span> <span class="k">this</span><span class="p">.</span><span class="nx">prototype</span> <span class="o">||</span> <span class="p">{};</span>
+        <span class="nx">bound</span><span class="p">.</span><span class="nx">prototype</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">nop</span><span class="p">();</span>
+        <span class="k">return</span> <span class="nx">bound</span><span class="p">;</span>
+      <span class="p">};</span>
+      <span class="nx">proto</span><span class="p">.</span><span class="nx">bind</span> <span class="o">=</span> <span class="nx">bind</span><span class="p">;</span>
+    <span class="p">}</span>
+  <span class="p">});</span>
+<span class="p">});</span></code></pre></div>
+
+<p>Back to fast flexible tests with screenshots.</p>
+
+
+    <p id="post-meta"><i class="fa fa-tags"></i> <a href="/tag/casperjs/">CasperJS</a>, <a href="/tag/phantomjs/">PhantomJS</a>, <a href="/tag/javascript/">Javascript</a></p>
+  </article>
+
+  <div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'pxwise';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+
+</div>
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+    <!-- garbage -->
+<!-- http://stackoverflow.com/questions/7985081/how-to-deploy-a-jekyll-site-locally-with-css-js-and-background-images-included -->
+
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script type="text/javascript" src="../../../node_modules/three/three.min.js"></script>
+<script type="text/javascript" src="../../../js/stars.js"></script>
+<script type="text/javascript" src="../../../js/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-63586266-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+
+
+  </body>
+
+</html>

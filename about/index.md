@@ -4,6 +4,8 @@ title: About
 permalink: /about/
 ---
 
+![Vintage Netscape Navigator 2.0]({{ "/assets/images/posts/netscape-navigator-icon.png" | prepend: site.baseurl }}){: style="float:right; width: 210px; height: 316px; margin-left: 20px;"}
+
 <p>
   <strong>I'm a Front End Engineer in San Francisco and I enjoy working with
   Javascript.</strong>

@@ -6,14 +6,15 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Fonts Rendering Too Bold in Mac OS X</title>
-  <meta name="description" content="There have been a couple of occasions recently where I’vegiven my css a cross-browser visual inspection and noticed that my fontsappeared bolder in Firefox. ...">
+  <title>pxwise</title>
+  <meta name="description" content="Shawn Stedman's coding blog. Front End Engineer in San Francisco, enjoying hacking on all things Javascript, especially React, Angular, Node.js, THREE.js and D3.
+">
   <link rel="shortcut icon" href="/assets/images/favicon.ico">
   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
   <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:300|Roboto+Condensed' rel='stylesheet' type='text/css' />
   <link href="/node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
   <link href="/css/main.css" rel="stylesheet" />
-  <link href="https://pxwise.com/css/firefox/fonts/2014/05/14/Fonts-Rendering-Too-Bold-Firefox-Mac-OS-X.html" rel="canonical" />
+  <link href="https://pxwise.com/tag/phantomjs/" rel="canonical" />
   <link href="https://pxwise.com/feed.xml" rel="alternate" type="application/rss+xml" title="pxwise" />
 </head>
 
@@ -42,11 +43,47 @@
           
         
           
-          <a class="page-link" href="/about/">About</a>
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
           
         
           
           <a class="page-link" href="/archive/index.html">Archive</a>
+          
+        
+          
+          <a class="page-link" href="/about/">About</a>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
           
         
           
@@ -70,11 +107,47 @@
           
         
           
-          <li><a class="page-link" href="/about/">About</a></li>
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
           
         
           
           <li><a class="page-link" href="/archive/index.html">Archive</a></li>
+          
+        
+          
+          <li><a class="page-link" href="/about/">About</a></li>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
           
         
           
@@ -121,64 +194,19 @@
               <div class="content-header"></div>
               <div class="content-body">
 
-                <div class="post">
+                <div class="tag">
 
-  <header class="post-header">
-    <h1 class="post-title">Fonts Rendering Too Bold in Mac OS X</h1>
-    <p class="post-meta">May 14, 2014</p>
+  <header class="tag-header">
+    <h1 class="post-title">Tagged <span class="title-tag">phantomjs</span></h1>
   </header>
 
-  <article class="post-content">
-    <p>There have been a couple of occasions recently where I’ve
-given my css a cross-browser visual inspection and noticed that my fonts
-appeared bolder in Firefox. After triple checking every other browser and OS
-I narrowed the issue down to Firefox on the Mac, all versions.</p>
-
-<p>This was one of those pesky issues that seemed like it must have a simple fix
-but every attempt to clean up the fonts came up empty. I tried <code>font-smoothing: antialiased;</code>,
-adjusting the font-weight by increments of 100, moving my svg font declaration
-up in precedence in my @font-face declaration and a
-last desperate atempt reducing the font-weight to 100 and applying a text-shadow
-to emulate antialiasing (bad idea, ha). None of these “tips” resolved the issue.</p>
-
-<p><img src="/assets/images/posts/firefox-fonts.gif" alt="Zocial font rendering too bold on Mac OS X" style="float:right; width: 30%; height: 30%; margin-left: 20px;" /></p>
-
-<p>It turns out that Mozilla has known about this Mac-specific issue for some time.
-The issue boils down to a difference in the rendering engine Firefox uses on
-a Mac. <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=857142">Mozilla weighed the decision heavily</a>
-whether or not to add another vendor prefix.
-The demand from designers and developers was enough so they introduced <code>-moz-osx-font-smoothing: grayscale;</code>
-which completely resolves the issue.</p>
-
-<p>I returned to the project I was working on and <a href="https://github.com/samcollins/css-social-buttons/issues/76">patched the zocial icon font css</a> to use the new style.</p>
-
-<p>So remember any place you are using <code>font-smoothing: antialiased;</code> be sure to add
-in your vendor prefixed options, including the Firefox Mac rule:</p>
-
-<pre><code class="language-css">.myfont {
-  -moz-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  font-smoothing: antialiased;
-}
-</code></pre>
-
+  <article class="tag-content">
+      
+          
+              <a href="/2015/03/12/CasperJS-error-missing-bind-function.html">CasperJS Error: Missing bind() Function</a>
+          
+      
   </article>
-
-  <div id="disqus_thread"></div>
-<script type="text/javascript">
-    /* * * CONFIGURATION VARIABLES * * */
-    var disqus_shortname = 'pxwise';
-
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
-
 
 </div>
 
@@ -194,9 +222,9 @@ in your vendor prefixed options, including the Firefox Mac rule:</p>
 
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-<script type="text/javascript" src="../../../../../../node_modules/three/three.min.js"></script>
-<script type="text/javascript" src="../../../../../../js/stars.js"></script>
-<script type="text/javascript" src="../../../../../../js/app.js"></script>
+<script type="text/javascript" src="../../node_modules/three/three.min.js"></script>
+<script type="text/javascript" src="../../js/stars.js"></script>
+<script type="text/javascript" src="../../js/app.js"></script>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

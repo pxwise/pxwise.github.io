@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Fonts Rendering Too Bold in Mac OS X"
+title:  "Fonts Rendering Too Bold in Firefox on Mac OS X"
 date:   2014-05-14 17:35:01
-categories: css firefox fonts
+tags: [css, fonts, firefox]
 ---
 
 There have been a couple of occasions recently where I've
@@ -17,7 +17,7 @@ up in precedence in my @font-face declaration and a
 last desperate atempt reducing the font-weight to 100 and applying a text-shadow
 to emulate antialiasing (bad idea, ha). None of these "tips" resolved the issue.
 
-![Zocial font rendering too bold on Mac OS X]({{ "/assets/images/posts/firefox-fonts.gif" | prepend: site.baseurl }}){: style="float:right; width: 30%; height: 30%; margin-left: 20px;"}
+![Zocial font rendering too bold in Firefox on Mac OS X]({{ "/assets/images/posts/firefox-fonts.gif" | prepend: site.baseurl }}){: style="float:right; width: 30%; height: 30%; margin-left: 20px;"}
 
 It turns out that Mozilla has known about this Mac-specific issue for some time.
 The issue boils down to a difference in the rendering engine Firefox uses on

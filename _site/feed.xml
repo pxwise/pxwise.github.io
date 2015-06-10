@@ -6,15 +6,15 @@
 </description>
     <link>https://pxwise.com/</link>
     <atom:link href="https://pxwise.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 04 Jun 2015 20:35:31 -0700</pubDate>
-    <lastBuildDate>Thu, 04 Jun 2015 20:35:31 -0700</lastBuildDate>
+    <pubDate>Tue, 09 Jun 2015 23:11:33 -0700</pubDate>
+    <lastBuildDate>Tue, 09 Jun 2015 23:11:33 -0700</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
-        <title>THREE.js starter code</title>
-        <description>&lt;p&gt;Here’s some boilerplate code for working with THREE.js.&lt;/p&gt;
+        <title>Getting Started with THREE.js</title>
+        <description>&lt;p&gt;Here’s some boilerplate code for working with THREE.js, adapted from &lt;a href=&quot;http://www.awwwards.com/creating-3d-cube-a-practical-guide-to-three-js-with-live-demo.html&quot;&gt;http://www.awwwards.com/creating-3d-cube-a-practical-guide-to-three-js-with-live-demo.html&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;THREE.js starter kit&lt;/p&gt;
+&lt;p&gt;Experiment with changing the camera, geometry, position and rotation variables. The best way to learn is by doing.&lt;/p&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;html&amp;gt;&lt;/span&gt;
 &lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
@@ -55,86 +55,104 @@
 &lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;
 &lt;span class=&quot;nt&quot;&gt;&amp;lt;/html&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://www.awwwards.com/creating-3d-cube-a-practical-guide-to-three-js-with-live-demo.html&quot;&gt;http://www.awwwards.com/creating-3d-cube-a-practical-guide-to-three-js-with-live-demo.html&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Test text Test text Test text Test text Test text Test text Test text Test text Test text Test text
-Test text Test text Test text Test text Test text Test text Test text
-Test text Test text Test text Test text Test text Test text Test text Test text Test text
-Test text Test text Test text Test text Test text Test text Test text Test text
-Test text Test text Test text Test text Test text Test text Test text Test text Test text
-Test text Test text Test text Test text Test text&lt;/p&gt;
-
-&lt;p&gt;Test text Test text Test text Test text Test text Test text Test text Test text Test text Test text
-Test text Test text Test text Test text Test text Test text Test text Test text
-Test text Test text Test text Test text Test text Test text Test text Test text Test text
-Test text Test text Test text Test text Test text Test text Test text
-Test text Test text Test text Test text Test text Test text Test text
-Test text&lt;/p&gt;
-
-&lt;p&gt;Test text Test text Test text Test text Test text Test text Test text Test text Test text
-Test text Test text Test text Test text Test text Test text Test text Test text
-Test text Test text Test text Test text Test text Test text Test text Test text
-Test text Test text Test text Test text Test text Test text Test text Test text Test text
-Test text Test text Test text Test text Test text Test text Test text Test text
-Test text Test text Test text Test text Test text Test text&lt;/p&gt;
-
-&lt;p&gt;Test text Test text Test text Test text Test text Test text Test text Test text
-Test text Test text Test text Test text Test text&lt;/p&gt;
-
-&lt;p&gt;Test text Test text Test text Test text Test text Test text Test text Test text Test text Test text
-Test text Test text Test text Test text Test text Test text Test text
-Test text Test text Test text Test text Test text Test text Test text Test text Test text
-Test text Test text Test text Test text Test text Test text Test text Test text
-Test text Test text Test text Test text Test text Test text Test text Test text Test text
-Test text Test text Test text Test text Test text&lt;/p&gt;
-
-&lt;p&gt;Test text Test text Test text Test text Test text Test text Test text Test text Test text Test text
-Test text Test text Test text Test text Test text Test text Test text Test text
-Test text Test text Test text Test text Test text Test text Test text Test text Test text
-Test text Test text Test text Test text Test text Test text Test text
-Test text Test text Test text Test text Test text Test text Test text
-Test text&lt;/p&gt;
-
-&lt;p&gt;Test text Test text Test text Test text Test text Test text Test text Test text Test text
-Test text Test text Test text Test text Test text Test text Test text Test text
-Test text Test text Test text Test text Test text Test text Test text Test text
-Test text Test text Test text Test text Test text Test text Test text Test text Test text
-Test text Test text Test text Test text Test text Test text Test text Test text
-Test text Test text Test text Test text Test text Test text&lt;/p&gt;
-
-&lt;p&gt;Test text Test text Test text Test text Test text Test text Test text Test text Test text Test text
-Test text Test text Test text Test text Test text Test text Test text
-Test text Test text Test text Test text Test text Test text Test text Test text Test text
-Test text Test text Test text Test text Test text Test text Test text Test text
-Test text Test text Test text Test text Test text Test text Test text Test text Test text
-Test text Test text Test text Test text Test text&lt;/p&gt;
-
-&lt;p&gt;Test text Test text Test text Test text Test text Test text Test text Test text Test text Test text
-Test text Test text Test text Test text Test text Test text Test text Test text
-Test text Test text Test text Test text Test text Test text Test text Test text Test text
-Test text Test text Test text Test text Test text Test text Test text
-Test text Test text Test text Test text Test text Test text Test text
-Test text&lt;/p&gt;
-
-&lt;p&gt;Test text Test text Test text Test text Test text Test text Test text Test text Test text
-Test text Test text Test text Test text Test text Test text Test text Test text
-Test text Test text Test text Test text Test text Test text Test text Test text
-Test text Test text Test text Test text Test text Test text Test text Test text Test text
-Test text Test text Test text Test text Test text Test text Test text Test text
-Test text Test text Test text Test text Test text Test text&lt;/p&gt;
-
 </description>
         <pubDate>Sun, 31 May 2015 05:01:37 -0700</pubDate>
-        <link>https://pxwise.com/three.js/2015/05/31/THREE.js-starter-code.html</link>
-        <guid isPermaLink="true">https://pxwise.com/three.js/2015/05/31/THREE.js-starter-code.html</guid>
+        <link>https://pxwise.com/2015/05/31/Getting-Started-with-THREE.js.html</link>
+        <guid isPermaLink="true">https://pxwise.com/2015/05/31/Getting-Started-with-THREE.js.html</guid>
         
+        <category>threejs</category>
         
-        <category>three.js</category>
+        <category>javascript</category>
+        
         
       </item>
     
       <item>
-        <title>Fonts Rendering Too Bold in Mac OS X</title>
+        <title>CasperJS Error: Missing bind() Function</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/assets/images/posts/pacman.png&quot; alt=&quot;PacMan&#39;s new Ghost Bindy.&quot; style=&quot;float:right; width: 224px; height: 288px; margin-left: 20px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://casperjs.org/&quot;&gt;CasperJS&lt;/a&gt; and &lt;a href=&quot;http://phantomjs.org/&quot;&gt;PhantomJS&lt;/a&gt; are fantastic tools for creating integration tests to
+sanity check the complete functionality of your site. They can simulate a user, click
+and keydown through your UI and take screenshots of your page. Written in
+javascript, tests are lean and do not require the heft of the alternative
+browser driver Selenium.&lt;/p&gt;
+
+&lt;p&gt;Recently I ran into an issue with CasperJS while taking screenshots. I received
+&lt;code&gt;TypeError: &#39;undefined&#39; is not a function (evaluating &#39;a.createDescriptor.bind(null,t)&#39;)&lt;/code&gt;.
+I was using the most recent stable versions of CasperJS &lt;code&gt;1.1.0-beta3&lt;/code&gt; and PhantomJS
+&lt;code&gt;1.9.7&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;It turns out that PhantomJS below version 2.0.0 does not include the .bind()
+function. It is recommended to download the latest 2.0 version of PhantomJS from
+the master branch and use CasperJS with that build. After working through unrelated
+issues with PhantomJS 1.9.8 and downgrading to 1.9.7 I was not interested in
+trying out an even more unstable version.&lt;/p&gt;
+
+&lt;p&gt;For me, the answer was to patch in the bind function to the evaluated remote page as
+shown below.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;cm&quot;&gt;/**&lt;/span&gt;
+&lt;span class=&quot;cm&quot;&gt; * CasperJS .bind()&lt;/span&gt;
+&lt;span class=&quot;cm&quot;&gt; *&lt;/span&gt;
+&lt;span class=&quot;cm&quot;&gt; * Adds .bind() capability missing from PhantomJS &amp;lt; 2.0.0 for CasperJS.&lt;/span&gt;
+&lt;span class=&quot;cm&quot;&gt; * Needed for some types of evaluations on the remote page as well as&lt;/span&gt;
+&lt;span class=&quot;cm&quot;&gt; * screenshots.&lt;/span&gt;
+&lt;span class=&quot;cm&quot;&gt; */&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;casper&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;on&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;page.initialized&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;casper&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;evaluate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;isFunction&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;o&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;typeof&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;o&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;function&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;
+
+    &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;bind&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;slice&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[].&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;slice&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;proto&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;Function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;prototype&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;featureMap&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+    &lt;span class=&quot;nx&quot;&gt;featureMap&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;s1&quot;&gt;&amp;#39;function-bind&amp;#39;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;bind&amp;#39;&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;
+
+    &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;has&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;feature&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;prop&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;featureMap&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;feature&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;isFunction&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;proto&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;prop&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]);&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;has&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;function-bind&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;nx&quot;&gt;bind&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;bind&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;obj&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;args&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;slice&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;call&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;arguments&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+        &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;self&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;nop&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{};&lt;/span&gt;
+        &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;bound&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+          &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;apply&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;this&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;instanceof&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;nop&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;?&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;obj&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;||&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{}),&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;args&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;concat&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;slice&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;call&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;arguments&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)));&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;
+        &lt;span class=&quot;nx&quot;&gt;nop&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;prototype&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;prototype&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;||&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{};&lt;/span&gt;
+        &lt;span class=&quot;nx&quot;&gt;bound&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;prototype&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;nop&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;bound&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;
+      &lt;span class=&quot;nx&quot;&gt;proto&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;bind&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;bind&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Back to fast flexible tests with screenshots.&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 12 Mar 2015 10:13:44 -0700</pubDate>
+        <link>https://pxwise.com/2015/03/12/CasperJS-error-missing-bind-function.html</link>
+        <guid isPermaLink="true">https://pxwise.com/2015/03/12/CasperJS-error-missing-bind-function.html</guid>
+        
+        <category>casperjs</category>
+        
+        <category>phantomjs</category>
+        
+        <category>javascript</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Fonts Rendering Too Bold in Firefox on Mac OS X</title>
         <description>&lt;p&gt;There have been a couple of occasions recently where I’ve
 given my css a cross-browser visual inspection and noticed that my fonts
 appeared bolder in Firefox. After triple checking every other browser and OS
@@ -147,7 +165,7 @@ up in precedence in my @font-face declaration and a
 last desperate atempt reducing the font-weight to 100 and applying a text-shadow
 to emulate antialiasing (bad idea, ha). None of these “tips” resolved the issue.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/posts/firefox-fonts.gif&quot; alt=&quot;Zocial font rendering too bold on Mac OS X&quot; style=&quot;float:right; width: 30%; height: 30%; margin-left: 20px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/posts/firefox-fonts.gif&quot; alt=&quot;Zocial font rendering too bold in Firefox on Mac OS X&quot; style=&quot;float:right; width: 30%; height: 30%; margin-left: 20px;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;It turns out that Mozilla has known about this Mac-specific issue for some time.
 The issue boils down to a difference in the rendering engine Firefox uses on
@@ -170,15 +188,15 @@ in your vendor prefixed options, including the Firefox Mac rule:&lt;/p&gt;
 &lt;/code&gt;&lt;/pre&gt;
 </description>
         <pubDate>Wed, 14 May 2014 10:35:01 -0700</pubDate>
-        <link>https://pxwise.com/css/firefox/fonts/2014/05/14/Fonts-Rendering-Too-Bold-Firefox-Mac-OS-X.html</link>
-        <guid isPermaLink="true">https://pxwise.com/css/firefox/fonts/2014/05/14/Fonts-Rendering-Too-Bold-Firefox-Mac-OS-X.html</guid>
-        
+        <link>https://pxwise.com/2014/05/14/Fonts-Rendering-Too-Bold-Firefox-Mac-OS-X.html</link>
+        <guid isPermaLink="true">https://pxwise.com/2014/05/14/Fonts-Rendering-Too-Bold-Firefox-Mac-OS-X.html</guid>
         
         <category>css</category>
         
+        <category>fonts</category>
+        
         <category>firefox</category>
         
-        <category>fonts</category>
         
       </item>
     

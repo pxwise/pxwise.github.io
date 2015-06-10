@@ -1,20 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://pxwise.com/three.js/2015/05/31/THREE.js-starter-code.html</loc>
+    <loc>https://pxwise.com/2015/05/31/Getting-Started-with-THREE.js.html</loc>
     <lastmod>2015-05-31T05:01:37-07:00</lastmod>
   </url>
   <url>
-    <loc>https://pxwise.com/css/firefox/fonts/2014/05/14/Fonts-Rendering-Too-Bold-Firefox-Mac-OS-X.html</loc>
+    <loc>https://pxwise.com/2015/03/12/CasperJS-error-missing-bind-function.html</loc>
+    <lastmod>2015-03-12T10:13:44-07:00</lastmod>
+  </url>
+  <url>
+    <loc>https://pxwise.com/2014/05/14/Fonts-Rendering-Too-Bold-Firefox-Mac-OS-X.html</loc>
     <lastmod>2014-05-14T10:35:01-07:00</lastmod>
+  </url>
+  <url>
+    <loc>https://pxwise.com/tag/es6/</loc>
+  </url>
+  <url>
+    <loc>https://pxwise.com/tag/casperjs/</loc>
+  </url>
+  <url>
+    <loc>https://pxwise.com/tag/chrome/</loc>
+  </url>
+  <url>
+    <loc>https://pxwise.com/tag/css/</loc>
+  </url>
+  <url>
+    <loc>https://pxwise.com/tag/d3/</loc>
+  </url>
+  <url>
+    <loc>https://pxwise.com/tag/drupal/</loc>
+  </url>
+  <url>
+    <loc>https://pxwise.com/tag/es6/</loc>
+  </url>
+  <url>
+    <loc>https://pxwise.com/tag/firefox/</loc>
+  </url>
+  <url>
+    <loc>https://pxwise.com/tag/fonts/</loc>
+  </url>
+  <url>
+    <loc>https://pxwise.com/tag/https/</loc>
   </url>
   <url>
     <loc>https://pxwise.com/</loc>
   </url>
   <url>
+    <loc>https://pxwise.com/archive/</loc>
+  </url>
+  <url>
     <loc>https://pxwise.com/about/</loc>
   </url>
   <url>
-    <loc>https://pxwise.com/archive/</loc>
+    <loc>https://pxwise.com/tag/javascript/</loc>
+  </url>
+  <url>
+    <loc>https://pxwise.com/tag/mongodb/</loc>
+  </url>
+  <url>
+    <loc>https://pxwise.com/tag/nginx/</loc>
+  </url>
+  <url>
+    <loc>https://pxwise.com/tag/nodejs/</loc>
+  </url>
+  <url>
+    <loc>https://pxwise.com/tag/phantomjs/</loc>
+  </url>
+  <url>
+    <loc>https://pxwise.com/tag/php/</loc>
+  </url>
+  <url>
+    <loc>https://pxwise.com/tag/react/</loc>
+  </url>
+  <url>
+    <loc>https://pxwise.com/tag/threejs/</loc>
   </url>
 </urlset>
